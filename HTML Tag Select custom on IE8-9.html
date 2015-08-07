@@ -1,0 +1,74 @@
+<!doctype html>
+<!--[if lt IE 8]>
+	<html class="olderIe">
+<![endif]-->
+<!--[if IE 8]>
+	<html class="ie8">
+<![endif]-->
+<!--[if IE 9]>
+	<html class="ie9">
+<![endif]-->
+<!--[if gt IE 9]>
+	<!-->
+<html>
+	<!--
+<![endif]-->
+	<head>
+		<title>HTML Tag Select</title>
+		<style type="text/css">
+			.container {
+				margin: 50px 10px;
+				width: 33%;    
+			}
+			.ie8 .selectTagWrapper,
+			.ie9 .selectTagWrapper {
+				position: relative;
+				border: 1px solid black;
+				overflow: hidden;
+				height: 50px;
+				width: 100%;
+			}
+			.ie8 .selectTagWrapper > select,
+			.ie9 .selectTagWrapper > select {
+				border: none;
+				height: 50px;
+				width: 120%;
+			}
+			.ie8 .selectTagWrapper:before,
+			.ie9 .selectTagWrapper:before {
+				position: absolute;
+				top: 25%;
+				left: 90%;
+				/*background: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-down-b-512.png") no-repeat;*/
+				background-size: 20px 20px;
+				content: '*';
+				height: 50px;
+				width: 100%;
+				z-index: 100;
+			}
+		</style>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="selectTagWrapper">
+				<select>
+					<option>Please select...</option>
+					<option>Option 1</option>
+					<option>Option 2</option>
+					<option>Option 3</option>
+					<option>Option 4</option>
+					<option>Option 5</option>
+					<option>Option 6</option>
+					<option>Option 7</option>
+					<option>Option 8</option>
+					<option>Option 9</option>
+					<option>Option 10</option>
+				</select>
+			</div>
+		</div>
+	</body>
+</html>
