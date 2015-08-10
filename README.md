@@ -4,19 +4,21 @@ Have you ever faced with the problem that the **HTML tag *select* has with his a
 
 Well, if the answer is "YES", or maybe you want a **select arrow that appear the same** in every most famous browsers and in the old ones, here there is an easy trick.
 
-*It's all CSS, no JavaScript needed!*
+You can find all the CSS and HTML code in the example file in this repository.
+
+######*It's all CSS, no JavaScript needed!*######
+
+(NOTE: I have put all the CSS and HTML code in the same file because it is only a very simple and easy to understand example).
 
 
 
 ### Chrome, Firefox, Opera, Internet Explorer 10+ Custom Select Tag Arrow
 
-For these browser, it is easy to set the same background, so that the arrow can be the same.
+For these browser, it is easy to **set the same background for the *select* tag** in order to have the same arrow.
 
-To do so, you have to reset the browser's default style for the HTML *select* tag and then set the custom background.
+To do so, you have to reset the browser's default style for the *select* tag and set the custom background with the arrow.
 
-See the example file for more details about the code.
-
-(NOTE: I have put all the code in the same file because it is only a very simple and easy to understand example).
+See the example file for more details about the CSS rules.
 
 
 
@@ -24,7 +26,7 @@ See the example file for more details about the code.
 
 This is the hardest part, or not?
 
-The solution is to hide the part of the *select* tag that contains the default arrow and put an icon font similar to the custom that I have created for the other browsers.
+The solution is to **hide the part of the *select* tag that contains the default arrow** and put an icon font similar to the custom that I have created for the other browsers.
 
 The very first step is to set a class that can recognize the browser: this is the reason why I have used the conditional IE IFs at the beginning of the code.
 
@@ -32,11 +34,12 @@ After that, evry *select* tag in the HTML have to be wrapped by a *div* (or what
 
 In easy words, this wrapper simulates the *select* tag and is used only for these IEs browsers. This is the reason why in the css rules, you have to specify the classes that you have put at the beginning of the HTML.
 
-To act like a *select* tag, this wrapper has a border and his *:before* it must have the rule **content** that contains the icon font reference.
+To act like a *select* tag, this wrapper has a border and his *:before* must have the rule *content* that contains the icon font reference.
 
 The *select* CSS rules hide the border (because we use the wrapper one) and put a width a 20% longer than the wrapper, to do so the default arrow may be hidden by the *overflow* rule that has to be set for the wrapper.
 
 Finally, set (or adjust) the arrow position, if needed.
+
 
 
 ----------
