@@ -8,7 +8,7 @@ It's all CSS, no JavaScript!
 
 
 
-# Chrome, Firefox, Opera, Internet Explorer 10+ Custom Select Tag Arrow
+## Chrome, Firefox, Opera, Internet Explorer 10+ Custom Select Tag Arrow
 
 For these browser it is easy to set the same background, so the arrow can be the same.
 
@@ -19,7 +19,7 @@ See the example file for more details about the code.
 
 
 
-# Internet Explorer 8 (IE8) and Internet Explorer 9 (IE9) Icon Font Custom Select Tag Arrow
+## Internet Explorer 8 (IE8) and Internet Explorer 9 (IE9) Icon Font Custom Select Tag Arrow
 
 This is the hardest part, or not?
 
@@ -36,6 +36,6 @@ Add the class that contain the icon font to this wrapper.
 Last point is to set (or adjust) the custom arrow made by icon font in the CSS.
 
 
-
+----------
 
 NOTE: You can easily create and substitute the background arrow and the icon font arrow with every one that you want simply changing them or making a new ones by yourself.
