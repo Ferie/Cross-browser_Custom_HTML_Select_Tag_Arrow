@@ -8,6 +8,8 @@ You can find all the CSS and HTML code in the example file in this repository.
 
 ######*It's all CSS, no JavaScript needed!*######
 
+See the [Custom HTML Select Tag Arrow in action](http://riccardoandreatta.com/web-app/HTML_Select_tag_custom_arrow_-_Example.html) with all your browsers!!!
+
 (NOTE: I have put all the CSS and HTML code in the same file because it is only a very simple and easy to understand example).
 
 
