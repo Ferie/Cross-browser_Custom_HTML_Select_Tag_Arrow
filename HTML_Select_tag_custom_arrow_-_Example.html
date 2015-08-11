@@ -16,6 +16,33 @@
 	<head>
 		<title>HTML Tag Select</title>
 		<style type="text/css">
+			.container {
+				margin: 50px 10px;
+				width: 33%;
+			}
+
+			select {
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				-o-appearance: none;
+				appearance: none;
+				background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
+				background-position: 100% center;
+				background-repeat: no-repeat;
+				border: 1px solid #dddddd;
+				border-radius:0;
+				box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+				font-size: 16px;
+				outline: none;
+				padding: 8px 12px;
+				height: 50px;
+				width: 100%;
+			}
+
+			select::-ms-expand {
+				display: none;
+			}
+
 			@font-face {
 				font-family: "prefixes-icons";
 				src:url("fonts/prefixes-icons.eot");
@@ -73,33 +100,6 @@
 				content: ",";
 			}
 
-			.container {
-				margin: 50px 10px;
-				width: 33%;
-			}
-
-			select {
-				-webkit-appearance: none;
-				-moz-appearance: none;
-				-o-appearance: none;
-				appearance: none;
-				background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
-				background-position: 100% center;
-				background-repeat: no-repeat;
-				border: 1px solid #dddddd;
-				border-radius:0;
-				box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-				font-size: 16px;
-				outline: none;
-				padding: 8px 12px;
-				height: 50px;
-				width: 100%;
-			}
-
-			select::-ms-expand {
-				display: none;
-			}
-
 			.ie8 .selectTagWrapper,
 			.ie9 .selectTagWrapper {
 				position: relative;
@@ -137,7 +137,6 @@
 				width: 100%;
 			}
 		</style>
-
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
