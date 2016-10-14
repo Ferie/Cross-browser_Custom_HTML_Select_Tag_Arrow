@@ -1,72 +1,129 @@
 <!doctype html>
 <!--[if lt IE 8]>
-	<html class="olderIe">
+    <html class="olderIe">
 <![endif]-->
 <!--[if IE 8]>
-	<html class="ie8">
+    <html class="ie8">
 <![endif]-->
 <!--[if IE 9]>
-	<html class="ie9">
+    <html class="ie9">
 <![endif]-->
 <!--[if gt IE 9]>
 <!-->
 <html>
-	<!--
+    <!--
 <![endif]-->
-	<head>
-		<title>HTML Tag Select</title>
-		<link rel="stylesheet" type="text/css" href="css/icon-font.css">
-		<link rel="stylesheet" type="text/css" href="css/custom-dropdown.css">
-		<style type="text/css">
-			.container {
-				margin: 50px 10px;
-				width: 33%;
-			}
+    <head>
+        <title>HTML Tag Select</title>
+        <link rel="stylesheet" type="text/css" href="css/custom-dropdown.css">
+        <style type="text/css">
+            @font-face {
+                font-family: "prefixes-icons";
+                src:url("fonts/prefixes-icons.eot");
+                src:url("fonts/prefixes-icons.eot?#iefix") format("embedded-opentype"),
+                    url("fonts/prefixes-icons.woff") format("woff"),
+                    url("fonts/prefixes-icons.ttf") format("truetype"),
+                    url("fonts/prefixes-icons.svg#prefixes-icons") format("svg");
+                font-weight: normal;
+                font-style: normal;
+            }
 
-			.examples-divider {
-				margin-bottom: 250px;
-			}
-		</style>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
+            [data-icon]:before {
+                font-family: "prefixes-icons" !important;
+                content: attr(data-icon);
+                font-style: normal !important;
+                font-weight: normal !important;
+                font-variant: normal !important;
+                text-transform: none !important;
+                speak: none;
+                line-height: 1;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
 
-	<body>
-		<div class="container">
-			<div class="examples-divider example1">
-				<div class="selectTagWrapper prefix-icon-arrow-down-fill">
-					<select>
-						<option>Please select...</option>
-						<option>Option 1</option>
-						<option>Option 2</option>
-						<option>Option 3</option>
-						<option>Option 4</option>
-						<option>Option 5</option>
-						<option>Option 6</option>
-						<option>Option 7</option>
-						<option>Option 8</option>
-						<option>Option 9</option>
-						<option>Option 10</option>
-					</select>
-				</div>
-			</div>
-			<div class="examples-divider example2">
-				<div class="selectTagWrapper prefix-icon-arrow-down-fill">
-					<select>
-						<option>Please select...</option>
-						<option>Option 1</option>
-						<option>Option 2</option>
-						<option>Option 3</option>
-						<option>Option 4</option>
-						<option>Option 5</option>
-						<option>Option 6</option>
-						<option>Option 7</option>
-						<option>Option 8</option>
-						<option>Option 9</option>
-						<option>Option 10</option>
-					</select>
-				</div>
-			</div>
-		</div>
-	</body>
+            [class^="prefix-icon-"]:before,
+            [class*=" prefix-icon-"]:before {
+                font-family: "prefixes-icons" !important;
+                font-style: normal !important;
+                font-weight: normal !important;
+                font-variant: normal !important;
+                text-transform: none !important;
+                speak: none;
+                line-height: 1;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+
+            .container {
+                margin: 50px 16px;
+            }
+
+            .examples-divider {
+                font-family: Arial, sans-serif;
+                margin-bottom: 250px;
+                width: 33.333%;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="examples-divider example1">
+                Example 1
+                <div class="selectTagWrapper prefix-icon-arrow-down-fill">
+                    <select>
+                        <option>Please select...</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                        <option>Option 6</option>
+                        <option>Option 7</option>
+                        <option>Option 8</option>
+                        <option>Option 9</option>
+                        <option>Option 10</option>
+                    </select>
+                </div>
+            </div>
+            <div class="examples-divider example2">
+                Example 2
+                <div class="selectTagWrapper prefix-icon-arrow-down-fill">
+                    <select>
+                        <option>Please select...</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                        <option>Option 6</option>
+                        <option>Option 7</option>
+                        <option>Option 8</option>
+                        <option>Option 9</option>
+                        <option>Option 10</option>
+                    </select>
+                </div>
+            </div>
+            <div class="examples-divider example3">
+                Example 3
+                <div class="selectTagWrapper prefix-icon-arrow-down-fill">
+                    <select>
+                        <option>Please select...</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                        <option>Option 6</option>
+                        <option>Option 7</option>
+                        <option>Option 8</option>
+                        <option>Option 9</option>
+                        <option>Option 10</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
