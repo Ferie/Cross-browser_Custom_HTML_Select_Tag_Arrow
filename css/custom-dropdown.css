@@ -112,5 +112,15 @@ select::-ms-expand {
 }
 
 .example3 .selectTagWrapper {
+    position: relative;
     border: 20px solid #DDD;
+}
+
+.example3 .prefix-icon-arrow-down-fill:before {
+    position: absolute;
+    top: 43%;
+    left: 93%;
+    content: ')';
+    font-size: 6px;
+    width: 100%;
 }
