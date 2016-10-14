@@ -2,11 +2,11 @@
 
 ### Custom Cross Browser Drop-down
 
-Have you ever faced with the problem that the **HTML tag `select` has with his arrow on different browsers**, especially on older Internet Explorer ones?
+Have you ever faced the problem that the **HTML tag `select` has with its default arrow appearance on different browsers**? Especially on the older Internet Explorers?
 
-Well, if the answer is "YES", or maybe you want a **drop-down arrow that appear the same** in every most famous browsers and in the old ones, here there is an easy trick.
+Well, if the answer is "YES", or maybe you want a **drop-down arrow that appear the same** in each browsers (including the old ones), here there is an easy trick.
 
-You can find all the CSS code and a HTML example in this repository.
+You can find all the CSS code and some examples in this repository.
 
 ######*It's all CSS, no JavaScript needed!*######
 
@@ -16,9 +16,9 @@ See the [Custom Cross Browser Drop-down in action](http://riccardoandreatta.com/
 
 ### Drop-down Arrow for Chrome, Firefox, Opera, Internet Explorer 10+
 
-For these browser, it is easy to **set the same background image for the *drop-down* in order to have the same arrow.
+For these browser, it is easy to *set the same background image for the drop-down* in order to have the same arrow.
 
-To do so, you have to reset the browser's default style for the `select` tag and set some background rules.
+To do so, you have to reset the browser's default style for the `select` tag and set new background rules.
 ```
 select {
 	/* you should keep these firsts rules in place to maintain cross-browser behaviour */
@@ -34,11 +34,11 @@ select {
 }
 ```
 
-The `appearance` rules are set to none to reset browsers default ones, if you want to use this solution, you should keep them in place.
+The `appearance` rules are set to none to reset browsers default ones, if you want to have the same aspect for each arrow, you should keep them in place.
 
-The `background` rules in the examples are set with SVG images that represent different arrows. They are positioned 98% from left to keep some margin to the right border (you can easily modify it as you wish).
+The `background` rules in the examples are set with SVG inline images that represent different arrows. They are positioned 98% from left to keep some margin to the right border (you can easily modify the position as you wish).
 
-In order to maintain the correct cross-browser behavior, the only other rule that have to be left in place is the `outline` one: this rule resets the default border that appears (in some browsers) when the select is clicked. All the others can be easily modified if needed.
+In order to maintain the correct cross-browser behavior, the only other rule that have to be left in place is the `outline`. This rule resets the default border that appears (in some browsers) when the element is clicked. All the others rules can be easily modified if needed.
 
 See the `custom-dropdown.css` file for more details about the other rules and examples.
 
@@ -48,7 +48,7 @@ See the `custom-dropdown.css` file for more details about the other rules and ex
 
 This is the harder part... Or maybe not.
 
-There is no rule to hide the default arrows for these browsers (like the `select::-ms-expand` for IE10+). The solution is to **hide the part of the *drop-down* that contains the default arrow** and insert an arrow icon font (or a SVG, if you prefer) similar to the SVG that is used in the other browsers (see the `select` CSS rule for more details about the inline SVG used).
+There is no standard rule to hide the default arrows for these browsers (like the `select::-ms-expand` for IE10+). The solution is to **hide the part of the *drop-down* that contains the default arrow** and insert an arrow icon font (or a SVG, if you prefer) similar to the SVG that is used in the other browsers (see the `select` CSS rule for more details about the inline SVG used).
 
 The very first step is to set a class that can recognize the browser: this is the reason why I have used the conditional IE IFs at the beginning of the code. These IFs are used to attach specific classes to the `html` tag to recognize the older IE browser.
 
