@@ -8,7 +8,7 @@ Well, if the answer is "YES", or maybe you want a **drop-down arrow that appear 
 
 You can find all the CSS code and some examples in this repository.
 
-######*It's all CSS, no JavaScript needed!*######
+### *It's all CSS, no JavaScript needed!* ###
 
 See the [Custom Cross Browser Drop-down in action](http://riccardoandreatta.com/web-app/HTML_Select_tag_custom_arrow/HTML_Select_tag_custom_arrow_-_Example.html) with all your browsers!!!
 
