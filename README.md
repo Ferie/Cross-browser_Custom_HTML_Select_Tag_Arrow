@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/01b84d34-0344-434e-ba8e-6b82ccb63e07/deploy-status)](https://app.netlify.com/sites/cross-browser-select-tag-arrow/deploys)
+
 # Cross-Browser Custom Select Tag Arrow
 
 ### Custom Cross Browser Drop-down
